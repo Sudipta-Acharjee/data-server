@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
     "build": "webpack --config=Scripts/config/webpack.prod.js",
-    "start":"nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +16,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongodb": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
   }
 }
